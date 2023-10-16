@@ -1,5 +1,6 @@
 @charset "utf-8";
-.footer{
+
+.footer {
     background-color: blanchedalmond;
     font-family: 'Source Sans 3', sans-serif;
     width: 100%;
@@ -10,40 +11,52 @@
     padding: 0 4px;
     box-sizing: border-box;
     position: relative;
-    border-radius: 0 0px 0px 0px ;
+    border-radius: 0 0px 0px 0px;
 }
-.icono_messenger{
+
+.icono_messenger {
     width: 32px;
     height: 32px;
     background-image: url("../icons/facebook-messenger.svg");
     background-position: center center;
     display: block;
 }
-.icono_facebook{
+
+.icono_facebook {
     width: 32px;
     height: 32px;
     background-image: url("../icons/facebook.svg");
     background-position: center center;
     display: block;
 }
-.icono_whatsapp{
+
+.icono_whatsapp {
     width: 32px;
     height: 32px;
     background-image: url("../icons/whatsapp.svg");
     background-position: center center;
     display: block;
 }
-.icono_linkedin{
+
+.icono_linkedin {
     width: 32px;
     height: 32px;
     background-image: url("../icons/linkedin.svg");
     background-position: center center;
     display: block;
 }
-.icono_pinteres{
+
+.icono_pinteres {
     width: 32px;
     height: 32px;
     background-image: url("../icons/pinterest.svg");
     background-position: center center;
     display: block;
+    width: 50px;
+    height: 50px;
+    background-image: url("../icons/facebook-messenger.svg");
+    background-size: 50px 50px;
+    background-position: center center;
+    display: block;
+    background-color: red;
 }
