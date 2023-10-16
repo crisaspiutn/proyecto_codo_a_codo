@@ -1,0 +1,42 @@
+<div class="container">
+    <h1>Formularios</h1>
+
+    <form id="formulario">
+        <input
+            class="form-control mb-2"
+            name="userName"
+            placeholder="Ingrese su nombre"
+            autocomplete="off"
+            id="userName"
+            type="text"
+            required
+            pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$"
+            title="Solo letras"
+            minlength="3"
+            maxlength="10"
+        />
+        <input
+            class="form-control mb-2"
+            name="userEmail"
+            placeholder="Ingrese su correo"
+            id="userEmail"
+            autocomplete="off"
+            type="email"
+            required
+            pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$"
+            title="Ingresa un email válido"
+        />
+        <input
+            class="form-control mb-2"
+            name="txtConsulta"
+            placeholder="Mensaje:"
+            id="txtConsulta"
+            maxlength="350"
+            width="500"
+            autocomplete="off"
+            required
+            title="Ingrese su consulta"
+        />
+        <button class="btn btn-primary" type="submit">Enviar</button>
+    </form>
+</div>
