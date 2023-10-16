@@ -105,3 +105,24 @@ ul{
 #cuerpo{
     position: relative;
 }
+.caja{
+    background: blanchedalmond;
+    font-weight: bold;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    margin: 5px;
+    float: left;
+}
+.flex-container{
+
+    padding: 1px;
+    display: flex;
+    justify-content:space-between;
+    flex-flow: row wrap;
+    width: 10%;
+    height: 32px;
+
+
+}
