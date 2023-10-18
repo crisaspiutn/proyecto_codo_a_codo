@@ -5,8 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Servicios de Arquitectura</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+
+    <!-- <script defer src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script> -->
+
+    <!-- <script defer src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
     <link rel="stylesheet" href="css/css.css" media="screen and (min-height:320px)">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/carru.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/fuego.css">
 </head>
 <body>
     <header class="header">
@@ -14,11 +23,11 @@
         <img class="logo" src="img/logo.png" alt="">
         <nav class="menu ocultar_menu">
             <ul class="adaptador">
-                <li>Inicio</li>
-                <li>Servicios</li>
-                <li>Proyectos</li>
-                <li>Nosotros</li>
-                <li>Contacto</li>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Proyectos</a></li>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="#">Contacto</a></li>
             </ul>
         </nav>
     </header>
@@ -34,7 +43,308 @@
             <article>Nos enfocamos en el diseño, desarrollo y construcción de obra y proyectos de la más alta  calidad con una arquitectura sofisticada pero simple y de vanguardia. Desarrollamos proyectos innovadores que no solo sean conceptualmente extraordinarios, sino que también creen espacios con un nivel de confort inigualable.</article>
         </section>
         <section>
-            <h2>Proyectos</h2>
+            <header>
+                <h2>Proyectos</h2>
+            </header>
+                <a id="item11" href="#">text</a>
+                <!-- <a class="elemento" tabindex="0" id="item1" clickable="true" focusable="true" active="true" disabled focus="true" contenteditable="true">Elemento 1</a> -->
+                <!-- <a class="elemento" tabindex="1" id="item1" for="check1" disabled  >Elemento 1</a> -->
+            <main class="proyectos">
+                <label class="proyecto_1" for="check1">datos</label>
+                <input id="check1" name="dato" type="radio" checked>
+                <article class="proyecto">
+                    <div id="demo" class="carousel slide" data-ride="carousel">
+                        <ul class="carousel-indicators">
+                            <li data-target="#demo" data-slide-to="0" class="active"></li>
+                            <li data-target="#demo" data-slide-to="1"></li>
+                            <li data-target="#demo" data-slide-to="2"></li>
+                            <li data-target="#demo" data-slide-to="3"></li>
+                        </ul>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/Balconies/Balconies-Azcuénaga 499.jpg" alt="Azcuenaga 499" >
+                                <div class="carousel-caption">
+                                    <h3>Azcuenaga 499</h3>
+                                    <p>Gran Balconies</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/Balconies/balconies2.jpg" alt="Prueba2" >
+                                <div class="carousel-caption">
+                                    <h3>Balconies2</h3>
+                                    <p>B2</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/Balconies/balconies4.jpg" alt="New York" >
+                                <div class="carousel-caption">
+                                    <h3>Balconies4</h3>
+                                    <p>Frente</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/Balconies/Plano de Ubicación.jpg" alt="Plano Ubicación" >
+                                <div class="carousel-caption">
+                                    <h3>Plano de Ubicación</h3>
+                                    <p>Plano</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#demo" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                    <!-- colocar carousel -->
+                </article>
+                <label class="proyecto_3" for="check2">datos2</label>
+                <input id="check2" name="dato" type="radio">
+                <article class="proyecto">
+                    <div id="demo22" class="carousel slide" data-ride="carousel">
+                        <ul class="carousel-indicators">
+                            <li data-target="#demo22" data-slide-to="0" class="active"></li>
+                            <li data-target="#demo22" data-slide-to="1"></li>
+                            <li data-target="#demo22" data-slide-to="2"></li>
+                            <li data-target="#demo22" data-slide-to="3"></li>
+                        </ul>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/Balconies/Balconies-Azcuénaga 499.jpg" alt="Azcuenaga 499" >
+                                <div class="carousel-caption">
+                                    <h3>Azcuenaga 499</h3>
+                                    <p>Gran Balconies</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/Balconies/balconies2.jpg" alt="Prueba2" >
+                                <div class="carousel-caption">
+                                    <h3>Balconies2</h3>
+                                    <p>B2</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/Balconies/balconies4.jpg" alt="New York" >
+                                <div class="carousel-caption">
+                                    <h3>Balconies4</h3>
+                                    <p>Frente</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/Balconies/Plano de Ubicación.jpg" alt="Plano Ubicación" >
+                                <div class="carousel-caption">
+                                    <h3>Plano de Ubicación</h3>
+                                    <p>Plano</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#demo" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                    <!-- colocar carousel -->
+                </article>
+                <label class="proyecto_2" for="check3">datos3</label>
+                <input id="check3" name="dato" type="radio">
+                <article class="proyecto">
+                    <div id="demo2" class="carousel slide" data-ride="carousel">
+                        <ul class="carousel-indicators">
+                            <li data-target="#demo" data-slide-to="0" class="active"></li>
+                            <li data-target="#demo" data-slide-to="1"></li>
+                            <li data-target="#demo" data-slide-to="2"></li>
+                            <li data-target="#demo" data-slide-to="3"></li>
+                        </ul>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/Balconies/Balconies-Azcuénaga 499.jpg" alt="Azcuenaga 499" >
+                                <div class="carousel-caption">
+                                    <h3>Azcuenaga 499</h3>
+                                    <p>Gran Balconies</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/Balconies/balconies2.jpg" alt="Prueba2" >
+                                <div class="carousel-caption">
+                                    <h3>Balconies2</h3>
+                                    <p>B2</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/Balconies/balconies4.jpg" alt="New York" >
+                                <div class="carousel-caption">
+                                    <h3>Balconies4</h3>
+                                    <p>Frente</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/Balconies/Plano de Ubicación.jpg" alt="Plano Ubicación" >
+                                <div class="carousel-caption">
+                                    <h3>Plano de Ubicación</h3>
+                                    <p>Plano</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#demo" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                    <!-- colocar carousel -->
+                </article>
+                <label class="proyecto_4" for="check4">datos4</label>
+                <input id="check4" name="dato" type="radio">
+                <article class="proyecto">
+                    <div id="demo2" class="carousel slide" data-ride="carousel">
+                        <ul class="carousel-indicators">
+                            <li data-target="#demo" data-slide-to="0" class="active"></li>
+                            <li data-target="#demo" data-slide-to="1"></li>
+                            <li data-target="#demo" data-slide-to="2"></li>
+                            <li data-target="#demo" data-slide-to="3"></li>
+                        </ul>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/Balconies/Balconies-Azcuénaga 499.jpg" alt="Azcuenaga 499" >
+                                <div class="carousel-caption">
+                                    <h3>Azcuenaga 499</h3>
+                                    <p>Gran Balconies</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/Balconies/balconies2.jpg" alt="Prueba2" >
+                                <div class="carousel-caption">
+                                    <h3>Balconies2</h3>
+                                    <p>B2</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/Balconies/balconies4.jpg" alt="New York" >
+                                <div class="carousel-caption">
+                                    <h3>Balconies4</h3>
+                                    <p>Frente</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/Balconies/Plano de Ubicación.jpg" alt="Plano Ubicación" >
+                                <div class="carousel-caption">
+                                    <h3>Plano de Ubicación</h3>
+                                    <p>Plano</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#demo" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                    <!-- colocar carousel -->
+                </article>
+                <label class="proyecto_5" for="check5">datos5</label>
+                <input id="check5" name="dato" type="radio">
+                <article class="proyecto">
+                    <div id="demo2" class="carousel slide" data-ride="carousel">
+                        <ul class="carousel-indicators">
+                            <li data-target="#demo" data-slide-to="0" class="active"></li>
+                            <li data-target="#demo" data-slide-to="1"></li>
+                            <li data-target="#demo" data-slide-to="2"></li>
+                            <li data-target="#demo" data-slide-to="3"></li>
+                        </ul>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/Balconies/Balconies-Azcuénaga 499.jpg" alt="Azcuenaga 499" >
+                                <div class="carousel-caption">
+                                    <h3>Azcuenaga 499</h3>
+                                    <p>Gran Balconies</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/Balconies/balconies2.jpg" alt="Prueba2" >
+                                <div class="carousel-caption">
+                                    <h3>Balconies2</h3>
+                                    <p>B2</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/Balconies/balconies4.jpg" alt="New York" >
+                                <div class="carousel-caption">
+                                    <h3>Balconies4</h3>
+                                    <p>Frente</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/Balconies/Plano de Ubicación.jpg" alt="Plano Ubicación" >
+                                <div class="carousel-caption">
+                                    <h3>Plano de Ubicación</h3>
+                                    <p>Plano</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#demo" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                    <!-- colocar carousel -->
+                </article>
+                <label class="proyecto_6" for="check6">datos6</label>
+                <input id="check6" name="dato" type="radio">
+                <article class="proyecto">
+                    <div id="demo2" class="carousel slide" data-ride="carousel">
+                        <ul class="carousel-indicators">
+                            <li data-target="#demo" data-slide-to="0" class="active"></li>
+                            <li data-target="#demo" data-slide-to="1"></li>
+                            <li data-target="#demo" data-slide-to="2"></li>
+                            <li data-target="#demo" data-slide-to="3"></li>
+                        </ul>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/Balconies/Balconies-Azcuénaga 499.jpg" alt="Azcuenaga 499" >
+                                <div class="carousel-caption">
+                                    <h3>Azcuenaga 499</h3>
+                                    <p>Gran Balconies</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/Balconies/balconies2.jpg" alt="Prueba2" >
+                                <div class="carousel-caption">
+                                    <h3>Balconies2</h3>
+                                    <p>B2</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/Balconies/balconies4.jpg" alt="New York" >
+                                <div class="carousel-caption">
+                                    <h3>Balconies4</h3>
+                                    <p>Frente</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/Balconies/Plano de Ubicación.jpg" alt="Plano Ubicación" >
+                                <div class="carousel-caption">
+                                    <h3>Plano de Ubicación</h3>
+                                    <p>Plano</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#demo" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                    <!-- colocar carousel -->
+                </article>
+            </main>
             <div>
                 <article>Si tenes un proyecto y buscas un equipo que de respuestas en forma preofesional contactanos podemos ayudarte. Consturimos obras de calidad, emprendimeintos, edificios, casas de lujo, oficinas y locales comerciales con el respaldo de un estudio de arquitectura que controla, conoce y da seguimiento altamente profesional. </article>
             </div>
@@ -52,6 +362,9 @@
         </div>
         
     </footer>
+    
     <script src="js/js.js"></script>
+    <script defer src="./js/jquery.js"></script>
+    <script defer src="./js/bootstrap.js"></script>
 </body>
 </html>

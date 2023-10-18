@@ -1,0 +1,33 @@
+#demo{
+    /* display: flex; */
+    /* justify-content: center; */
+    width: 100%;
+    /* text-align: center; */
+    /* margin: 0 auto; */
+    /* padding: 0 10px; */
+}
+.carousel-inner{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: center;
+    height: 30vh;
+    width: 100%;
+    /* object-position: center center; */
+    /* overflow-y: auto; */
+    position: relative;
+}
+.carousel-inner img {
+    /* display: flex; */
+    /* justify-content: center; */
+    /* width: 70%; */
+    position: absolute;
+    /* top: 0; */
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+    height: auto;
+    /* object-fit: scale-down; */
+    object-fit: contain;
+}

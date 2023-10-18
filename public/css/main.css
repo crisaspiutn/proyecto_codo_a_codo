@@ -1,1 +1,78 @@
 @charset "utf-8";
+.proyecto{
+    /* border: 1px solid blue; */
+    display:none;
+    grid-area: v_1;
+    width: 100%;
+    padding: 0 10px;
+}
+#item1{
+    /* clip: auto; */
+}
+.elemento{
+    cursor: pointer;
+}
+.elemento:hover + .elemento-hermano {
+    /* Estilos que se aplicarán al hermano al hacer hover sobre el primer elemento */
+    /* background-color: #007bff; */
+    color: #fff;
+}
+.elemento:focus-visible + .elemento-hermano {
+    /* Estilos que se aplicarán al hermano al hacer hover sobre el primer elemento */
+    background-color: #ff0000;
+    color: #fff;
+}
+label{
+    /* display: block; */
+    /* width: 100px; */
+    /* height: 100px; */
+    margin: 0;
+}
+.proyectos input[type="radio"]{
+    display: none;
+}
+.proyectos input[type="radio"]:checked + .proyecto{
+    /* background-color: #ff0000; */
+    /* color: #ff0000; */
+    /* border: 1px solid #ff0000; */
+    display:block;
+}
+.proyectos{
+    display: grid;
+    width: 100%;
+    grid-template-areas:
+    "p_1 p_2 p_3"
+    "p_4 p_5 p_6"
+    "v_1 v_1 v_1"
+    ;
+    grid-template-columns: auto auto auto;
+    /* gap: 1; */
+}
+.proyectos label{
+    border: 1px solid green;
+    /* grid: 1; */
+}
+.proyecto_1{
+    grid-area: p_1;
+}
+.proyecto_2{
+    grid-area: p_2;
+}
+.proyecto_3{
+    grid-area: p_3;
+}
+.proyecto_4{
+    grid-area: p_4;
+}
+.proyecto_5{
+    grid-area: p_5;
+}
+.proyecto_6{
+    grid-area: p_6;
+}
+.proyectos > article:nth-child(3){background-color: #ff0000;}
+.proyectos > article:nth-child(6){background-color: violet;}
+.proyectos > article:nth-child(9){background-color: pink;}
+.proyectos > article:nth-child(12){background-color: black;}
+.proyectos > article:nth-child(15){background-color: blue;}
+.proyectos > article:nth-child(18){background-color: aqua;}

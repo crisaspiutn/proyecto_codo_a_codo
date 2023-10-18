@@ -10,9 +10,13 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <style>
         /* Make the image fully responsive */
+        .carousel-inner{
+
+            height: 100vh;
+        }
         .carousel-inner img {
             width: 100%;
-            height: 100%;
+            height: 100vh;
         }
     </style>
 </head>
@@ -24,10 +28,11 @@
             <li data-target="#demo" data-slide-to="0" class="active"></li>
             <li data-target="#demo" data-slide-to="1"></li>
             <li data-target="#demo" data-slide-to="2"></li>
+            <li data-target="#demo" data-slide-to="3"></li>
         </ul>
         <div class="carousel-inner">
             
-            <div class="carousel-item">
+            <div class="carousel-item active">
                 <img src="img/Coleurs/DSC05045.JPG" alt="45" width="1100" height="500">
                 <div class="carousel-caption">
                     <h3>45</h3>
