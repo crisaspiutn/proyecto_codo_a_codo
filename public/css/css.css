@@ -138,6 +138,8 @@ ul{
     flex-flow: row wrap;
     width: 10%;
     height: 32px;
-
+}
+.formcontacto{
+    display: flex;
 
 }

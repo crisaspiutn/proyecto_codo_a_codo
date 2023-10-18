@@ -1,57 +1,24 @@
-<div class="container">
-    <h1>Formularios</h1>
-
-    <form id="formulario">
-        <input
-            class="form-control mb-2"
-            name="userName"
-            placeholder="Ingrese su nombre"
-            autocomplete="off"
-            id="userName"
-            type="text"
-            required
-            pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$"
-            title="Solo letras"
-            minlength="3"
-            maxlength="10"
-        />
-        <input
-            class="form-control mb-2"
-            name="userEmail"
-            placeholder="Ingrese su correo"
-            id="userEmail"
-            autocomplete="off"
-            type="email"
-            required
-            pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$"
-            title="Ingresa un email válido"
-        />
-        <input
-            class="form-control mb-2"
-            name="txtConsulta"
-            placeholder="Mensaje:"
-            id="txtConsulta"
-            maxlength="350"
-            width="500"
-            autocomplete="off"
-            required
-            title="Ingrese su consulta"
-        />
-        <button class="btn btn-primary" type="submit">Enviar</button>
-    </form>
-    <a href="mailto:fbona@outlook.com" id="prueba">mail</a>
-</div>
-
-<script>const $form = document.querySelector('#form')
-    const $buttonMailto = document.querySelector('#trucazo')
-
-    $form.addEventListener('submit', handleSubmit)
-
-    function handleSubmit(event) {
-      event.preventDefault()
-      const form = new FormData(this)
-      $buttonMailto.setAttribute('href', `mailto:fbona@outlook.com?subject=nombre ${form.get('userName')}  correo ${form.get('userEmail')}&body=${form.get('txtConsulta')}`)
-      $buttonMailto.click()
-    }
-   
-</script>
+<section id="contacto">
+    <h2>Formulario de contacto</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-5">
+                <form>
+                    <div class="mb-3">
+                    <label for="nombre" class="form-label">Su nombre</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Correo Electronico</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1">
+                    </div>
+                    <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Recibir notificaciones en mi correo electronico</label>
+                    </div>
+                    <button type="submit" class="btn btn-dark">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
