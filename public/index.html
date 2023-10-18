@@ -7,6 +7,7 @@
     <title>Servicios de Arquitectura</title>
     <link rel="stylesheet" href="css/css.css" media="screen and (min-height:320px)">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body>
     <header class="header">
@@ -18,7 +19,7 @@
                 <li>Servicios</li>
                 <li>Proyectos</li>
                 <li>Nosotros</li>
-                <li>Contacto</li>
+                <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
     </header>
@@ -40,6 +41,30 @@
             </div>
         </section>
     </main>
+    <section id="contacto">
+        <h2>Formulario de contacto</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-5">
+                    <form>
+                        <div class="mb-3">
+                        <label for="nombre" class="form-label">Su nombre</label>
+                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Correo Electronico</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1">
+                        </div>
+                        <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Recibir notificaciones en mi correo electronico</label>
+                        </div>
+                        <button type="submit" class="btn btn-dark">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
     <footer>
 
         <div class="footer">
@@ -50,6 +75,8 @@
                     <a href="http://linkedin.com" class="caja icono_linkedin"></a>
                 </section>
         </div>
+        
+
         
     </footer>
     <script src="js/js.js"></script>
