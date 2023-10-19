@@ -1,13 +1,26 @@
 @charset "utf-8";
+#servicios .servicios{
+    display: grid;
+    grid-template-rows: 20vh 20vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    font-size: 14px;
+}
+.servicio{
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    text-align: center;
+}
 .proyecto{
     /* border: 1px solid blue; */
-    display:none;
+    /* grid: 1; */
+    display: none;
     grid-area: v_1;
     width: 100%;
     padding: 0 10px;
-}
-#item1{
-    /* clip: auto; */
 }
 .elemento{
     cursor: pointer;
@@ -46,7 +59,7 @@
     "v_1 v_1 v_1"
     ;
     grid-template-columns: auto auto auto;
-    /* gap: 1; */
+    gap: 8px;
 }
 .proyectos label{
     border: 1px solid green;

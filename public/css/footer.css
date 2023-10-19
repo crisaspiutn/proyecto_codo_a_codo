@@ -1,64 +1,71 @@
 @charset "utf-8";
-footer{
-    width: 100%;
-    box-sizing: border-box;
-    margin: 0;
-}
-.footer {
-    background-color: blanchedalmond;
+.footer{
+    background-color: #343a40;
     font-family: 'Source Sans 3', sans-serif;
+    color: white;
+    text-align: center;
+    padding: 10px 0px;
+}
+.redes_sociales {
+    /* background-color: blanchedalmond; */
     width: 100%;
     /* height: 10vw; */
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
+    text-align: center;
     align-items: center;
     /* padding: 0 4px; */
     box-sizing: border-box;
     position: relative;
+    padding: 0px 20px;
     /* border-radius: 0 0px 0px 0px; */
 }
-.footer{
-    
-}
-.icono_messenger {
+/* .icono_messenger {
     width: 32px;
     height: 32px;
     background-image: url("../icons/facebook-messenger.svg");
     background-position: center center;
     display: block;
+} */
+.flex-container{
+    /* padding: 1px; */
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin: 10px auto;
+    /* width: 10%; se cortarian los iconos si la pantalla es muy pequeña */
+    /* height: 32px; */
+    
 }
-
-.icono_facebook {
-    width: 31px;
-    height: 31px;
-    background-image: url("../icons/facebook.svg");
-    background-position: center center;
+.caja{
+    background: #343a40;
+    font-weight: bold;
+    width: 40px;
+    height: 40px;
+    background-size: 40px 40px;
+    line-height: 40px;
+    text-align: center;
+    margin: 0 5px;
+    float: left;
+    background-repeat: no-repeat;
+    background-position: center;
     display: block;
+}
+.icono_facebook {
+    background-image: url("../icons/facebook.svg");
 }
 
 .icono_whatsapp {
-    width: 32px;
-    height: 32px;
     background-image: url("../icons/whatsapp.svg");
-    background-position: center center;
-    display: block;
 }
 
 .icono_linkedin {
-    width: 32px;
-    height: 32px;
     background-image: url("../icons/linkedin.svg");
-    background-position: center center;
-    display: block;
 }
 
-.icono_pinteres {
-    width: 32px;
-    height: 32px;
+/* .icono_pinteres {
     background-image: url("../icons/pinterest.svg");
-    background-position: center center;
-    display: block;
     width: 50px;
     height: 50px;
     background-image: url("../icons/facebook-messenger.svg");
@@ -66,4 +73,4 @@ footer{
     background-position: center center;
     display: block;
     background-color: red;
-}
+} */

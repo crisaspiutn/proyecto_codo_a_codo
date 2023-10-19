@@ -25,7 +25,8 @@ ul{
     width: var(--alto_menu);
     display: flex;
     background-color: rgba(128, 128, 128, 0.575);
-    position: absolute;
+    /* position: absolute; */
+    position: fixed;
     top: 5px;
     left: 0;
     font-size: 30px;
@@ -34,6 +35,7 @@ ul{
     justify-content: center;
     align-items: center;
     border-radius: 12px;
+    z-index: 8;
 }
 .icon-close{
     font-size: 20px;
@@ -123,28 +125,25 @@ ul{
     text-align: center;
 }
 #cuerpo{
-    position: relative;
+    /* position: relative; */
 }
-.caja{
-    background: blanchedalmond;
-    font-weight: bold;
-    width: 32px;
-    height: 32px;
-    background-size: 32px 32px;
-    line-height: 32px;
-    text-align: center;
-    margin: 0 5px;
-    float: left;
+#proyectos{
+    padding: 8px;
 }
-.flex-container{
-
-    padding: 1px;
+#servicios{
+    padding: 8px;
+}
+#contacto{
+    padding: 20px 8px;
+}
+.ubicacion{
+    padding: 10px;
+    /* background-color: blue; */
+    width: 100%;
     display: flex;
-    justify-content:space-between;
-    flex-flow: row wrap;
-    /* width: 10%; se cortarian los iconos si la pantalla es muy pequeña */
-    height: 32px;
-    
+    justify-content: center;
+    height: 40vh;
+    border: 0;
 }
 .formcontacto{
     display: flex;

@@ -28,8 +28,8 @@
                 <li><a href="#">Inicio</a></li>
                 <li><a href="#servicios">Servicios</a></li>
                 <li><a href="#proyectos">Proyectos</a></li>
-                <li><a href="#">Nosotros</a></li>
                 <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
             </ul>
         </nav>
     </header>
@@ -43,15 +43,21 @@
         <section id="servicios">
             <h2>Servicios</h2>
             <article>Nos enfocamos en el diseño, desarrollo y construcción de obra y proyectos de la más alta  calidad con una arquitectura sofisticada pero simple y de vanguardia. Desarrollamos proyectos innovadores que no solo sean conceptualmente extraordinarios, sino que también creen espacios con un nivel de confort inigualable.</article>
+            <div class="servicios">
+                <article class="servicio">renta de infraestructura herramientas o maquinaria</article>
+                <article class="servicio">simulación de resultados finales de construccion en 3D</article>
+                <article class="servicio">gestion de recursos humanos</article>
+                <article class="servicio">ofrecemos tecnologia de software para una mejor gestion</article>
+                <article class="servicio">te contactamos con asesores legales y contables</article>
+                <article class="servicio">estudio geografico y cotizacion</article>
+            </div>
         </section>
-        <section>
+        <section id="proyectos">
             <header>
                 <h2>Proyectos</h2>
             </header>
-                <a id="item11" href="#">text</a>
-                <!-- <a class="elemento" tabindex="0" id="item1" clickable="true" focusable="true" active="true" disabled focus="true" contenteditable="true">Elemento 1</a> -->
                 <!-- <a class="elemento" tabindex="1" id="item1" for="check1" disabled  >Elemento 1</a> -->
-            <main class="proyectos" id="proyectos">
+            <main class="proyectos">
                 <label class="proyecto_1" for="check1">pinamar</label>
                 <input id="check1" name="dato" type="radio" checked>
                 <article class="proyecto">
@@ -388,28 +394,27 @@
                     <!-- colocar carousel -->
                 </article>
             </main>
-            <div>
-                <article>Si tenes un proyecto y buscas un equipo que de respuestas en forma preofesional contactanos podemos ayudarte. Consturimos obras de calidad, emprendimeintos, edificios, casas de lujo, oficinas y locales comerciales con el respaldo de un estudio de arquitectura que controla, conoce y da seguimiento altamente profesional. </article>
-            </div>
+            <article>Si tenes un proyecto y buscas un equipo que de respuestas en forma preofesional contactanos podemos ayudarte. Consturimos obras de calidad, emprendimeintos, edificios, casas de lujo, oficinas y locales comerciales con el respaldo de un estudio de arquitectura que controla, conoce y da seguimiento altamente profesional. </article>
+
         </section>
     </main>
     <section id="contacto">
         <h2>Formulario de contacto</h2>
         <div class="container">
             <div class="row">
-                <div class="col-5">
+                <div class="col-12">
                     <form>
                         <div class="mb-3">
-                        <label for="nombre" class="form-label">Su nombre</label>
-                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <label for="nombre" class="form-label">Su nombre</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                         </div>
                         <div class="mb-3">
-                        <label for="exampleInputPassword1" class="form-label">Correo Electronico</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1">
+                            <label for="exampleInputPassword1" class="form-label">Correo Electronico</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1">
                         </div>
                         <div class="mb-3 form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="form-check-label" for="exampleCheck1">Recibir notificaciones en mi correo electronico</label>
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Recibir notificaciones en mi correo electronico</label>
                         </div>
                         <button type="submit" class="btn btn-dark">Enviar</button>
                     </form>
@@ -417,19 +422,21 @@
             </div>
         </div>
     </section>
-    <footer>
-
-        <div class="footer">
-            <h4>C+G.Arq. - Todos los derechos reservados</h4>
-                <section class="flex-container">
-                    <a href="http://facebook.com" class="caja icono_facebook"></a>
-                    <a href="http://whatsapp.com" class="caja icono_whatsapp"></a>
-                    <a href="http://linkedin.com" class="caja icono_linkedin"></a>
-                </section>
-        </div>
-        
-
-        
+    <section id="ubicacion">
+        <iframe class="ubicacion" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26256.269640490173!2d-58.5787489824308!3d-34.653851715261844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc7d93bab75a3%3A0xaafe140bc9dea3db!2sRamos%20Mej%C3%ADa%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1697730506466!5m2!1ses-419!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <footer class="footer" id="nosotros">
+        <section class="redes_sociales">
+            <h4>Mas noticias en nuestras redes sociales C+G.Arq.</h4>
+            <div class="flex-container">
+                <a href="http://facebook.com" class="caja icono_facebook"></a>
+                <a href="http://whatsapp.com" class="caja icono_whatsapp"></a>
+                <a href="http://linkedin.com" class="caja icono_linkedin"></a>
+            </div>
+        </section>
+        <section>
+            <small>&#169; Copyright 2023 | protegido por derecho propiedad intelectual | <a href="https://servicios.infoleg.gob.ar/infolegInternet/anexos/40000-44999/42755/norma.htm">Ley 11.723</a></small>
+        </section>
     </footer>
     
     <script src="js/js.js"></script>
