@@ -8,6 +8,7 @@ body,h1,h2,h3,h4,h5,h6,ul{
 :root {
     --alto_menu: 50px;
     --alto_footer: 60px;
+    --alto_hero: 40vh;
 }
 ul{
     padding: 0;
@@ -55,6 +56,10 @@ ul{
     padding: 16px 24px;
     font-size: 18px;
 }
+.menu li a{
+    color: white;
+    text-decoration: none;
+}
 .logo{
     /* width: 100px; */
     box-sizing: content-box;
@@ -71,7 +76,7 @@ ul{
 .hero{
     width: 100%;
     /* height: 60vw; */
-    height: 60vh;
+    height: var(--alto_hero);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,7 +94,7 @@ ul{
     /* right: 0; */
     width: 100%;
     /* height: 60vw; */
-    height: 60vh;
+    height: var(--alto_hero);
     /* background-color: blue; */
     background-repeat: no-repeat;
     /* background-size: 100% auto; */
@@ -125,9 +130,10 @@ ul{
     font-weight: bold;
     width: 32px;
     height: 32px;
+    background-size: 32px 32px;
     line-height: 32px;
     text-align: center;
-    margin: 5px;
+    margin: 0 5px;
     float: left;
 }
 .flex-container{
@@ -136,10 +142,11 @@ ul{
     display: flex;
     justify-content:space-between;
     flex-flow: row wrap;
-    width: 10%;
+    /* width: 10%; se cortarian los iconos si la pantalla es muy pequeña */
     height: 32px;
+    
 }
 .formcontacto{
     display: flex;
-
+    
 }

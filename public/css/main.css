@@ -71,21 +71,22 @@
 .proyecto_6{
     grid-area: p_6;
 }
-.proyectos > article:nth-child(3){background-color: #ff0000;}
+/* .proyectos > article:nth-child(3){background-color: #ff0000;}
 .proyectos > article:nth-child(6){background-color: violet;}
 .proyectos > article:nth-child(9){background-color: pink;}
 .proyectos > article:nth-child(12){background-color: black;}
 .proyectos > article:nth-child(15){background-color: blue;}
-.proyectos > article:nth-child(18){background-color: aqua;}
+.proyectos > article:nth-child(18){background-color: aqua;} */
 .carousel-item{
     text-align: center;
 }
 .carousel-caption{
     background-color: rgba(128, 128, 128, 0.4);
+    padding: 10px 0;
     margin: 0px auto;
     line-height: 0;
     /* display: flex; */
-    width: 40%;
+    width: auto;
 }
 .carousel-caption > * {
     margin: 0px;

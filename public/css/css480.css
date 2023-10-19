@@ -1,0 +1,14 @@
+:root{
+    --alto_menu:60px;
+    --alto_hero:50vh;
+}
+body{
+    background-color: blue;
+}
+.btn_menu{
+    height: var(--alto_menu);
+    background-color: rgba(128, 128, 128, 0.575);
+    font-size: 40px;
+    border-radius: 12px;
+    top: 0;
+}
