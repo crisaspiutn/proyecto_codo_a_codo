@@ -22,7 +22,7 @@
     background-color: #ff0000;
     color: #fff;
 }
-label{
+.proyectos label{
     /* display: block; */
     /* width: 100px; */
     /* height: 100px; */
@@ -51,6 +51,7 @@ label{
 .proyectos label{
     border: 1px solid green;
     /* grid: 1; */
+    margin: 0;
 }
 .proyecto_1{
     grid-area: p_1;
@@ -76,3 +77,22 @@ label{
 .proyectos > article:nth-child(12){background-color: black;}
 .proyectos > article:nth-child(15){background-color: blue;}
 .proyectos > article:nth-child(18){background-color: aqua;}
+.carousel-item{
+    text-align: center;
+}
+.carousel-caption{
+    background-color: rgba(128, 128, 128, 0.4);
+    margin: 0px auto;
+    line-height: 0;
+    /* display: flex; */
+    width: 40%;
+}
+.carousel-caption > * {
+    margin: 0px;
+    padding: 0px;
+    line-height: 1;
+}
+.carousel-caption > h3 {
+    margin-bottom: 10px;
+    padding: 0px;
+}

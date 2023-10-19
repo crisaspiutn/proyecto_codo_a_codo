@@ -106,7 +106,7 @@ ul{
     /* scroll-snap-stop: always; */
 }
 .img_hero:hover{
-    background-image: url("../img/Pinamar/2.jpeg");
+    background-image: url("../img/2.jpeg");
     background-position: center bottom;
 }
 .titulo{
