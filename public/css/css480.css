@@ -3,7 +3,7 @@
     --alto_hero:50vh;
 }
 body{
-    background-color: blue;
+    /* background-color: blue; */
 }
 .btn_menu{
     height: var(--alto_menu);

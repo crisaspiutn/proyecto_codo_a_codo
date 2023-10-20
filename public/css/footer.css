@@ -5,7 +5,7 @@
 #form_contact > *{
     /* margin: 0; */
     padding: 0;
-    margin: 10px;
+    margin: 10px 0;
     display: block;
 }
 #form_contact .fila{
@@ -15,9 +15,25 @@
     flex-wrap: wrap;
     /* height: auto; */
 }
+#form_contact .fila_checkbox{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    flex-wrap: wrap;
+    /* height: auto; */
+}
+#campo_recibir{
+    margin-right: 10px;
+}
 #form_contact .fila input{
-    height: 30px;
+    height: calc(1.5em + .75rem + 2px);
     display: block;
+    width: 100%;
+    border: 1px solid #ced4da;;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+#form_contact label{
+    margin: 0;
 }
 #form_contact .form-control{
     /* border-style: double; */
@@ -28,10 +44,11 @@
 #form_contact button{
     background-color: #343a40;
     padding: 4px 8px;
-    border-radius: 8px;
+    border-radius: 4px;
     color: white;
     border: 1px solid #343a40;
     /* margin: 0; */
+    margin: 10px auto;
 }
 .footer{
     background-color: #343a40;
