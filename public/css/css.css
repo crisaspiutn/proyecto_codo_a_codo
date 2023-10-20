@@ -48,7 +48,8 @@ ul{
     background-color: gray;
     color: white;
     opacity: 0.8;
-    position: absolute;
+    /* position: absolute; */
+    position: fixed;
     left: 0%;
     top: 60px;
     transition: 0.4s linear;
