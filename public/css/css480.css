@@ -31,3 +31,7 @@ body{
     border-radius: 12px;
     top: 0;
 }
+.servicio:hover img{
+    width: 120px;
+    height: 120px;
+}
