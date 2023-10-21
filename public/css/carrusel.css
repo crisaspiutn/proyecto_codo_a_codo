@@ -34,7 +34,7 @@
     /* object-fit: scale-down; */
     object-fit: contain;
 }
-.proyectos p{margin: 0;
+.proyectos label p{margin: 0;
     background-color: rgba(128, 128, 128, 0.418);
     color: white;
     padding: 10px 20px;
