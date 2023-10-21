@@ -27,7 +27,7 @@ btn_menu.addEventListener("click",()=>{
 const nombre = document.getElementById("campo_nombre");
 const email = document.getElementById("campo_email");
 const expresion = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-document.getElementById("miFormulario").addEventListener("submit", function (event) {
+document.getElementById("form_contact").addEventListener("submit", function (event) {
     const text_nombre=nombre.value;
     const text_email=email.value;
     if (text_nombre === "" || text_email === ""||!expresion.test(text_nombre)) {
