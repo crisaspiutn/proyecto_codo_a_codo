@@ -46,7 +46,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 30vh;
+    height: 20vh;
     width: auto;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -57,7 +57,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 30vh;
+    height: 20vh;
     width: auto;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -68,7 +68,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 30vh;
+    height: 20vh;
     width: auto;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -79,7 +79,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 30vh;
+    height: 20vh;
     width: auto;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -90,7 +90,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 30vh;
+    height: 20vh;
     width: auto;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -101,7 +101,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 30vh;
+    height: 20vh;
     width: auto;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -110,7 +110,7 @@
 }
 .proyecto_1 img{
     /* width: 33%; */
-    position: relative;
+    /* position: relative; */
 }
 .proyecto_1 .titulo_carrusel{
     /* position: absolute; */
