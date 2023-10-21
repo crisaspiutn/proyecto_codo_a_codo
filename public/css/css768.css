@@ -26,3 +26,11 @@ body{
     display: flex;
     /* display: block; */
 }
+.servicio{
+    padding-top: 40px;
+}
+.conten{
+    /* padding: 0; */
+    max-width: 1280px;
+    margin: 0 auto;
+}

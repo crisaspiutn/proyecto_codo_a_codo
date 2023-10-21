@@ -1,0 +1,13 @@
+{
+  "hosting": {
+    "public": "public",
+    "site": "servicio-construccion-cyg",
+    "ignore": [
+      "firebase.json",
+      ".git",
+      ".README.md",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

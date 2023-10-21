@@ -24,24 +24,35 @@ btn_menu.addEventListener("click",()=>{
 //         e.target.classList.add("active");
 //     }
 // });
-
-
-
-
-
-
-
-function efectoCarrusel(){
-    if(e.target.dataset.hasOwnProperty("slideTo")){
-        console.log(e.target.parentNode.children);
-        console.log("encontrado");
-        let lista=Object.values(e.target.parentNode.children);
-        lista.forEach(item=>{
-            console.log(item);
-            if(item.classList.contains("active")){
-                item.classList.remove("active");
-            }
-        })
-        e.target.classList.add("active");
+const nombre = document.getElementById("campo_nombre");
+const email = document.getElementById("campo_email");
+const expresion = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+document.getElementById("miFormulario").addEventListener("submit", function (event) {
+    const text_nombre=nombre.value;
+    const text_email=email.value;
+    if (text_nombre === "" || text_email === ""||!expresion.test(text_nombre)) {
+      alert("Por favor, complete todos los campos obligatorios.");
+      event.preventDefault(); // Evita que se envíe el formulario
     }
-}
+});
+  
+
+
+
+
+
+
+// function efectoCarrusel(){
+//     if(e.target.dataset.hasOwnProperty("slideTo")){
+//         console.log(e.target.parentNode.children);
+//         console.log("encontrado");
+//         let lista=Object.values(e.target.parentNode.children);
+//         lista.forEach(item=>{
+//             console.log(item);
+//             if(item.classList.contains("active")){
+//                 item.classList.remove("active");
+//             }
+//         })
+//         e.target.classList.add("active");
+//     }
+// }

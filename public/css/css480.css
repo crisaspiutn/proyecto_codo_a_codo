@@ -4,6 +4,14 @@
 }
 body{
     /* background-color: blue; */
+    
+}
+#servicios .servicios{
+    display: grid;
+    grid-template-rows: 35vh 35vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    font-size: 18px;
 }
 .btn_menu{
     height: var(--alto_menu);
