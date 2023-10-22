@@ -5,6 +5,9 @@ body,h1,h2,h3,h4,h5,h6,ul{
     margin: 0;
     font-family: 'Source Sans 3', sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+}
 h2{
     text-align: center;
 }
@@ -114,20 +117,32 @@ ul{
     background-repeat: no-repeat;
     /* background-size: 100% auto; */
     background-size: cover;
-    background-image: url("../img/fondo.png");
     background-attachment: fixed;
     /* background-position: center top; */
-    background-position: center bottom;
     /* background-size: cover; */
     transition: 0.7s linear;
     z-index: 0;
     border-radius: 0 0px 10px 10px ;
     scroll-snap-align: none;
     /* scroll-snap-stop: always; */
+    animation: hero_temporal 10s infinite;
+    /* transition: 2s; */
 }
 .img_hero:hover{
-    background-image: url("../img/2.jpeg");
-    background-position: center bottom;
+}
+@keyframes hero_temporal {
+    0%{
+        background-position: center bottom;
+        background-image: url("../img/fondo.png");
+    }
+    50%{        
+        background-position: center bottom;
+        background-image: url("../img/2.jpeg");
+    }
+    100%{
+        background-position: center bottom;
+        background-image: url("../img/fondo.png"); 
+    }
 }
 .titulo{
     z-index: 1;
@@ -142,9 +157,11 @@ ul{
 }
 #proyectos{
     padding: 8px;
+    scroll-behavior: smooth;
 }
 #servicios{
     padding: 8px;
+    scroll-behavior: smooth;
 }
 #contacto{
     padding: 20px 8px;

@@ -122,12 +122,14 @@ box-shadow: 1px 1px 2px 2px rgba(52,58,64,1);
     text-align: center;
 }
 .carousel-caption{
-    background-color: rgba(128, 128, 128, 0.4);
     padding: 10px 0;
     margin: 0px auto;
-    line-height: 0;
-    /* display: flex; */
-    width: auto;
+    /* line-height: 0; */
+    display: flex;
+    justify-content: center;
+    /* width: auto; */
+    left: 0;
+    right: 0;
 }
 .carousel-caption > * {
     margin: 0px;
@@ -137,4 +139,8 @@ box-shadow: 1px 1px 2px 2px rgba(52,58,64,1);
 .carousel-caption > h3 {
     margin-bottom: 10px;
     padding: 0px;
+}
+.marco_titulos{
+    background-color: rgba(128, 128, 128, 0.4);
+    padding: 8px 32px;
 }

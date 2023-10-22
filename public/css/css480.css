@@ -35,3 +35,6 @@ body{
     width: 120px;
     height: 120px;
 }
+#form_contact .fila input {
+    width: 50%;
+}

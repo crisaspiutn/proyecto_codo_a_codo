@@ -25,6 +25,11 @@ body{
 .adaptador{
     display: flex;
     /* display: block; */
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.hero_container{
+    padding: 0;
 }
 .servicio{
     padding-top: 40px;

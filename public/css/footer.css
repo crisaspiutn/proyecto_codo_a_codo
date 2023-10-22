@@ -89,6 +89,9 @@
     /* height: 32px; */
     
 }
+.title_footer{
+    margin: 0 auto;
+}
 .caja{
     background: #343a40;
     font-weight: bold;
