@@ -39,74 +39,38 @@
     color: white;
     padding: 10px 20px;
 }
-.proyecto label{
-    border-radius: 80px;
+.proyectos label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 16vh;
+    width: auto;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
 }
 .proyecto_1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 16vh;
-    width: auto;
-    background-repeat: no-repeat;
     background-size: 100% 100%;
     background-image: url("../img/Pinamar/1.jpeg");
-    box-sizing: border-box;
 }
 .proyecto_2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 16vh;
-    width: auto;
-    background-repeat: no-repeat;
     background-size: 100% 100%;
     background-image: url("../img/Ramos2/Dormi1.jpg");
-    box-sizing: border-box;
 }
 .proyecto_3{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 16vh;
-    width: auto;
-    background-repeat: no-repeat;
     background-size: 100% 100%;
     background-image: url("../img/Balconies/balconies4.jpg");
-    box-sizing: border-box;
 }
 .proyecto_4{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 16vh;
-    width: auto;
-    background-repeat: no-repeat;
     background-size: 100% 100%;
     background-image: url("../img/ramos3/Living1.jpg");
-    box-sizing: border-box;
 }
 .proyecto_5{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 16vh;
-    width: auto;
-    background-repeat: no-repeat;
     background-size: 100% 100%;
     background-image: url("../img/Coleurs/DSC05059.JPG");
-    box-sizing: border-box;
 }
 .proyecto_6{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 16vh;
-    width: auto;
-    background-repeat: no-repeat;
     background-size: 100% 100%;
     background-image: url("../img/Ramos1/CocinaAng2.jpg");
-    box-sizing: border-box;
 }
 .proyecto_1 img{
     /* width: 33%; */

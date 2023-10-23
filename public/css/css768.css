@@ -13,14 +13,21 @@ body{
 .header{
     display: block;
     text-align: center;
+    /* position: initial; */
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
 .logo{
+    position: sticky;
 }
 .menu{
-    position: static;
     flex-wrap: wrap;
     display: flex;
     /* display: block; */
+    position: sticky;
+    /* top: 0; */
+    /* left: 0; */
 }
 .adaptador{
     display: flex;
@@ -32,7 +39,11 @@ body{
     padding: 0;
 }
 .servicio{
-    padding-top: 40px;
+    /* padding-top: 40px; */
+    /* padding: 0 10px; */
+}
+.proyectos label{
+    height: 20vh;
 }
 .conten{
     /* padding: 0; */
